@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+
+table {
+    width: 100%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}

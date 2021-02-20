@@ -1,0 +1,2 @@
+#you should block access to this file with htaccess or something
+#this is used to store the ips for the uploaded files (fuck db << txt FTW)

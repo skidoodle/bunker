@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+div {
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+input[type='password'] {
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    height: 35px;
+    border: 0;
+    border-bottom: 1px solid #3700B3;
+}
+
+input[type='password']:focus {
+    outline: 0;
+    border-bottom: 1px solid #3700B3;
+}
+
+input[type='password']::-ms-clear, 
+input[type='password']::-ms-reveal {
+    display: none;
+}
+
+input[type='submit'] {
+    display: none;
+}
+
+#aligned { /* imagine using padding to align -.- */
+    padding: 150px;
+    text-align: center;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}

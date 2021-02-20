@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+a:visited, a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+input[type='file'] {
+    color: transparent;
+    width: 88px;
+}
+    
+input[type='file']::-webkit-file-upload-button {
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#aligned {
+    padding: 150px;
+    text-align: center;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
