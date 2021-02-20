@@ -1,4 +1,4 @@
 # bunker (file uploader / listing)
 
-# very simple file uploader in php including a table system to view time, used space, ip etc.
-# credits to v
+very simple file uploader in php including a table system to view time, used space, ip etc.
+credits to v
